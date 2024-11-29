@@ -36,7 +36,7 @@ scene.add(light4);
 // Load STL Files
 const loader = new THREE.STLLoader();
 const models = [
-    'fixfinger.stl', 'forearm.stl', 'movingfinger.stl','shoulder.stl','shoulder2arm.stl','shoulderpitch.stl','support.stl','upperarm.stl','wrist.stl', 'wristhand.stl'
+    'docs/fixfinger.stl', 'docs/forearm.stl', 'docs/movingfinger.stl','docs/shoulder.stl','docs/shoulder2arm.stl','docs/shoulderpitch.stl','docs/support.stl','docs/upperarm.stl','docs/wrist.stl', 'docs/wristhand.stl'
 ];
 
 const objects = []; // Store loaded STL objects
